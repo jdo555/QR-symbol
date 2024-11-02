@@ -65,3 +65,7 @@ Or, if you only need the main function, enter:
 ## Testing of software
 
 I have tested this software fairly thoroughly (in all aspects). There are no dedicated test suites, but there are two functions dedicated to testing: one which tests QR-code generation at all versions for all modes at all error-correction-levels against random text, and another that tests the application of masks; these functions are TEST-QR-SYMBOL-GENERATION and TEST-QR-MASKS respectively. The former function (combined with ERROR checks from within used functions) verifies the correctness of many tables as used in the code.
+
+## Example version 40 QR-code...
+
+![sample-version-40-qr](./images/version40.png)
