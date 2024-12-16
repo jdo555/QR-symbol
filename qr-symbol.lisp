@@ -1,6 +1,15 @@
 (defpackage #:qr-symbol
   (:use #:common-lisp)
-  (:export #:generate-qr-symbol))
+  (:export #:generate-qr-symbol
+           ;; constants for error correction levels
+           #:+ecl-L+
+           #:+ecl-M+
+           #:+ecl-Q+
+           #:+ecl-H+
+           ;; constants for implemented modes
+           #:+mode-numeric+
+           #:+mode-alphanumeric+
+           #:+mode-byte+))
 
 (in-package #:qr-symbol)
 
